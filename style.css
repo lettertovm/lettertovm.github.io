@@ -44,6 +44,7 @@
     align-items: center;
     background-image: url(https://t4.ftcdn.net/jpg/01/26/95/37/360_F_126953722_ekF29hGFdFYTIr8EaN4eDmP6IYYLoW5J.jpg);
     font-family: var(--font-family-main);
+    overflow-y: auto;
   }
   
   h1 { 
@@ -205,7 +206,7 @@
    ========================================= */
 
    .letter-container {
-    position: fixed;
+    position: absolute;
 
     left: 50%;
     top: 50%;
@@ -285,7 +286,7 @@
     position: absolute;
 
     width: 74.2%;
-    height: 75%;
+    height: 125%;
 
     right: 12.2%;
     top: 17.5%;
@@ -318,7 +319,7 @@
 
     font-family: "Bonheur Royale", cursive;
 
-    font-size: 17px;
+    font-size: 12px;
 
     line-height: 1.5;
 
@@ -327,6 +328,10 @@
     opacity: 0;
 
     transition: opacity 1s ease;
+}
+.letter-text p {
+  text-indent: 25px;
+  margin: 0 0 12px 0;
 }
 
 
