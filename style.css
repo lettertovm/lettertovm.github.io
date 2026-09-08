@@ -428,6 +428,24 @@
       .letter-container.expanded .paper {
           transform: scale(1.15);
       }
+
+     @media (max-width: 480px) {
+
+    .letter-container {
+        width: 95vw;
+        height: 80vh;
+    }
+
+    .letter-text {
+        font-size: 10px;
+        line-height: 1.35;
+    }
+
+    .letter-container.expanded .paper {
+        transform: scale(1.1);
+    }
+
+}   
   
   }
 
